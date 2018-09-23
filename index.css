@@ -28,7 +28,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 30px 26px;
     text-decoration: none;
 }
 
@@ -38,8 +38,52 @@ li a:hover {
 }
 #welcome-div {
     background-color: #3498db;
+    font-size: 1.5em;
 }
 
 #skills-div {
-    background-color: #e67e22;
+    background-color: #8BC34A;
+    padding: 100px 100px;
+}
+i {
+    font-size: 10em;
+}
+
+#skills-div h1 {
+    margin-bottom: 150px;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#skills-div .skill {
+    margin: 50px;
+}
+
+#contact-div {
+    padding: 100px 100px;
+    background-color: #009688;
+}
+
+#contact-div a {
+    margin: 60px;
+}
+
+#contact-div a:link {
+    color: white
+}
+
+#contact-div a:visited {
+    color: white;
+}
+
+#contact-div a:hover {
+    color: #00BCD4;
+}
+
+#contact-div h1 {
+    margin-bottom: 120px;
 }
